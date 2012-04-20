@@ -428,6 +428,13 @@ AddDefaultCharset utf-8
 AddCharset utf-8 .css .js .xml .json .rss .atom
 
 
+# ----------------------------------------------------------------------
+# Display PHP errors
+# ----------------------------------------------------------------------
+php_flag display_errors on 
+php_value error_reporting 32767
+
+
 
 # ----------------------------------------------------------------------
 # A little more security
