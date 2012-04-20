@@ -1,0 +1,12 @@
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+article, aside, footer, header, hgroup, nav, section { display: block; }
+
+html, body.
+h1, h2, h3, h4, h5, h6,
+p, ol, ul, blockquote { margin: 0; padding: 0; }
