@@ -8,7 +8,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
-	<title><?php echo ($meta_title != "") ? $meta_title : $SITE_NAME; ?></title>
+	<title><?php echo ($meta_title != "") ? $meta_title : SITE_NAME; ?></title>
 	<meta name="description" content="">
 	
 	<link rel="stylesheet" href="css/style.css">
