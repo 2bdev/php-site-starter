@@ -1,7 +1,9 @@
 <?php 
 
-define("SITE_URL","");
+define("SITE_URL",""); //Always include trailing slash
+define("ADMIN_URL",SITE_URL."admin/"); //If there is a custom backend
 define("SITE_NAME","");
+define("SERVER_PATH","");
 
 define("DB_HOST","");
 define("DB_USER","");
